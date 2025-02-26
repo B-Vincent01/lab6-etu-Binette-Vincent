@@ -1,0 +1,83 @@
+/*-------------------------------------------------
+BASE
+-------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+/*-------------------------------------------------
+ÉLEMENTS
+-------------------------------------------------*/
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Averia Serif Libre';
+    font-weight: 700;
+    color: #ECA136;
+    background-color: rgb(9,26,33);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*-------------------------------------------------
+COMPONENTS
+-------------------------------------------------*/
+
+/*entete*/
+
+header{
+    width: 1000px;
+    background-color: rgba(15,38,49,0.95);
+
+    z-index: 10;
+    position: fixed;
+    left: calc(50% - 500px);
+    top: 0;
+    border-radius: 20px;
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 4rem;
+    height: 80px;
+    margin: 0;
+}
+
+/*conteneur principale*/
+
+.contenu{
+    width: 925px;
+    margin: 100px, auto, 0;
+
+}
+
+.photo{
+    max-width: 100%;
+}
+
+
+
+
+
