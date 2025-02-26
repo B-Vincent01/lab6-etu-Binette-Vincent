@@ -34,6 +34,7 @@ body{
 
 a{
     text-decoration: none;
+    
 }
 
 
@@ -136,4 +137,62 @@ footer .wrapper{
     border-radius: 15px 15px 0 0;
 }
 
+/*media*/
+
+.media{
+    background-color: rgb(15,38,49);
+    border-radius: 0 15px 15px 0;
+    
+    position: fixed;
+    left: 0;
+    top: 200px;
+}
+
+.media img{
+    width: 50px;
+    height: 50px;
+
+    margin: 10px;
+}
+
+.media ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.media img:hover{
+    position: relative;
+    left: 3px;
+}
+
+/*modale*/
+
+img.zoom{
+    width: 800px;
+    height: 600px;
+    cursor: pointer;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.modale{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 20;
+    background-color: rgba(0,0,0,0.80);
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modale.visible{
+    display: flex;
+}
 
